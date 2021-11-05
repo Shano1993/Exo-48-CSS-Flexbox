@@ -1,0 +1,39 @@
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30rem;
+}
+
+.bloc {
+    width: 5rem;
+}
+
+p {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+#one, #six {
+    background-color: #1abc9c;
+}
+
+#two, #seven {
+    background-color: #3498db;
+}
+
+#three, #eight {
+    background-color: #9b59b6;
+}
+
+#four {
+    background-color: #e67e22;
+}
+
+#five {
+    background-color: #e74c3c;
+}
