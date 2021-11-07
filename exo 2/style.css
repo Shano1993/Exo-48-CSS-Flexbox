@@ -1,0 +1,77 @@
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 30rem;
+    width: 40rem;
+    background-color: grey;
+}
+
+.bloc {
+    width: 9rem;
+    height: 9rem;
+    align-self: center;
+}
+
+p {
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    text-align: center;
+}
+
+#p_five {
+    text-align: center;
+}
+
+#one, #six {
+    background-color: #1abc9c;
+}
+
+#two, #seven {
+    background-color: #3498db;
+}
+
+#three, #eight {
+    background-color: #9b59b6;
+}
+
+#four, #nine {
+    background-color: #e67e22;
+}
+
+#five {
+    background-color: #e74c3c;
+    flex-basis: 96%;
+}
+
+@media screen and (max-width: 1024px) {
+    main {
+        height: 60rem;
+        width: 25rem;
+    }
+    .bloc {
+        width: 11rem;
+        height: 11rem;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    main {
+        width: 60%;
+        justify-content: center;
+    }
+    .bloc {
+        width: 40%;
+        height: 10%;
+        align-self: center;
+    }
+    p {
+        margin-top: 2rem;
+    }
+}

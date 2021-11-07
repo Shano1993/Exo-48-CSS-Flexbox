@@ -6,17 +6,27 @@ html {
 main {
     display: flex;
     flex-wrap: wrap;
-    height: 30rem;
-    width: 40rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40rem;
+    width: 60rem;
+    background-color: grey;
+    align-items: center;
 }
 
 .bloc {
-    width: 10rem;
+    width: 15rem;
+    height: 9rem;
 }
 
 p {
     font-size: 2rem;
-    margin-left: 1rem;
+    margin-top: 3.5rem;
+    text-align: center;
+}
+
+#p_nine {
+    margin-top: 17.5rem;
 }
 
 #one, #six {
@@ -31,10 +41,14 @@ p {
     background-color: #9b59b6;
 }
 
-#four {
+#four, #nine {
     background-color: #e67e22;
 }
 
 #five {
     background-color: #e74c3c;
+}
+
+#nine {
+    flex-basis: 96%;
 }

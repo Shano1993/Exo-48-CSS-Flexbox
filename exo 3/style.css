@@ -1,0 +1,32 @@
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    display: flex;
+    height: 40rem;
+    width: 70rem;
+    border: 0.1rem solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc {
+    width: 11rem;
+    height: 11rem;
+}
+
+p {
+    font-size: 2rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#one {
+    background-color: #1abc9c;
+}
+
+#two {
+    background-color: #3498db;
+}
