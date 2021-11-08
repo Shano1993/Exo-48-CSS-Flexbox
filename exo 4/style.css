@@ -11,7 +11,7 @@ main {
     height: 40rem;
     width: 60rem;
     background-color: grey;
-    align-items: center;
+    align-content: space-evenly;
 }
 
 .bloc {

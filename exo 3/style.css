@@ -8,7 +8,7 @@ main {
     height: 40rem;
     width: 70rem;
     border: 0.1rem solid black;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -29,4 +29,12 @@ p {
 
 #two {
     background-color: #3498db;
+}
+
+#three {
+    background-color: #9b59b6;
+}
+
+#four {
+    background-color: #e67e22;
 }
